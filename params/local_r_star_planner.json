@@ -1,0 +1,17 @@
+{
+    "PLANNER_NAME": "R_STAR",
+    "max_road_width": 1,
+    "road_width_step": 0.3,
+    "min_prediction_time": 10,
+    "max_prediction_time": 15,
+    "time_step": 1.0,
+	"target_speed": 2,
+	"speed_step": 1,
+	"speed_step_number": 1,
+	"max_curvature": 0.6,
+    "kd":1.0,
+    "kj":0.1,
+    "kt":0.1,
+    "klat":1.0,
+    "klon":1.0
+}

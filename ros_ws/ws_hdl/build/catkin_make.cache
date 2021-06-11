@@ -1,0 +1,2 @@
+hdl_localization:ndt_omp
+-DCATKIN_DEVEL_PREFIX=/home/caopan/bz_robot/ros_ws/ws_hdl/devel -DCMAKE_INSTALL_PREFIX=/home/caopan/bz_robot/ros_ws/ws_hdl/install -G Unix Makefiles

@@ -1,0 +1,54 @@
+include "robots/carlike_robot.inc"
+
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 1
+  gui_grid 1
+  gui_outline 1
+  show_trailarrows 1
+  show_footprints 1
+  show_trailrise 1
+  show_trailfast 1
+  show_occupancy 1
+  show_tree 1
+  pcam_on 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+
+resolution 0.1
+interval_sim 100  # simulation timestep in milliseconds
+
+window
+(
+  size [ 600.0 600.0 ]
+  #center [ -99 4.5 ]
+  center [ 0 0]
+  rotate [ 0.0 0.0 ]
+  scale 1
+)
+
+floorplan
+(
+  name "um_park"
+  bitmap "um_park.pgm"
+  size [ 4833 3910 0.1 ]
+  # pose [  0 0 0.0 0.0 ]
+  pose [ 0 0 0.0 0.0 ]
+)
+
+# throw in a robot
+carlike_robot
+(
+  pose [ 0 0 0.0 0.0 ]
+  name "robot"
+)

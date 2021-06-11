@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/caopan/bz_robot/ros_ws/ws_stage/devel/setup.sh

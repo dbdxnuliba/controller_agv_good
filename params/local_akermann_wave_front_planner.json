@@ -1,0 +1,15 @@
+{
+    "PLANNER_NAME": "ACKERMANN_WAVE_FRONT",
+    "ANGLE_STEP": 4,
+    "DISTANCE_COST_RATIO": 6,
+	"//" : "step size, int, times of map resolution ,if want to use map resolution size set step size to 1",
+    "STEP_SIZE": 1,
+    "STEP_COST_RATIO": 3,
+    "DELTA_HEADING_COST_RATIO": 0.0,
+	"MAP_COST_RATIO": 0.05,
+	"AKERMANN_WHEEL_BASE": 0.64,
+	"AKERMANN_MAX_STEER_ANGLE": 20,
+    "FAST_MODE": false,
+    "IS_ENABLE_SMOOTH": true,
+    "SMOOTH_TIMES": 500
+}

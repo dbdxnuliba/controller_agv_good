@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="laser_filters" type="scan_to_scan_filter_chain"
+      name="laser_range_filter">
+    <rosparam command="load" file="/home/robot/jrobot/src/perception/depth_nav_tools/laser_range_filter_config.yaml" />
+    <remap from="scan" to="/realsense/scan" />
+	
+	
+  </node>
+</launch>

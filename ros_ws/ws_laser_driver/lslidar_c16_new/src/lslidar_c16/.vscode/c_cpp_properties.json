@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/zhou/laser_driver/lslidar_c16_new/devel/include/**",
+                "/home/zhou/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/amcl/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/base_local_planner/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/carrot_planner/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/clear_costmap_recovery/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/costmap_2d/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/dwa_local_planner/include/**",
+                "/home/zhou/catkin_ws/src/eband_local_planner/include/**",
+                "/home/zhou/catkin_ws/src/f110_rrt_star/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/global_planner/include/**",
+                "/home/zhou/catkin_ws/src/hdl_localization/include/**",
+                "/home/zhou/catkin_ws/src/hybrid_astar/include/**",
+                "/home/zhou/laser_driver/lslidar_c16_new/src/lslidar_c16/lslidar_c16_decoder/include/**",
+                "/home/zhou/laser_driver/lslidar_c16_new/src/lslidar_c16/lslidar_c16_driver/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/map_server/include/**",
+                "/home/zhou/catkin_ws/src/map_to_odom/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/move_base/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/move_slow_and_clear/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/nav_core/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/navfn/include/**",
+                "/home/zhou/catkin_ws/src/ndt_omp/include/**",
+                "/home/zhou/catkin_ws/src/odom_tf_pub/include/**",
+                "/home/zhou/catkin_ws/src/point_cloud2_layer/include/**",
+                "/home/zhou/catkin_ws/src/pointcloud_to_laserscan/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/robot_pose_ekf/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/rotate_recovery/include/**",
+                "/home/zhou/catkin_ws/src/rsband_local_planner/include/**",
+                "/home/zhou/catkin_ws/src/simple_layers/include/**",
+                "/home/zhou/catkin_ws/src/srl_global_planner-plugin_global_planner/include/**",
+                "/home/zhou/catkin_ws/src/teb_local_planner/include/**",
+                "/home/zhou/catkin_ws/src/trajectory_tracker/include/**",
+                "/home/zhou/catkin_ws/src/trajectory_tracker-dev/include/**",
+                "/home/zhou/catkin_ws/src/navigation-kinetic-devel/voxel_grid/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

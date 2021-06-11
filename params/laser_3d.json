@@ -1,0 +1,25 @@
+{
+	"LASER_3D": 
+	[
+		{
+			"DRIVER_INFO":{},
+			"NAME": "LSLIDAR",
+			"TYPE": "ROS",
+			"UPDATE_CYCLE_TIME_MS": 100,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0,
+			"POSE_OFFSET_Y":0,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 0,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": 0,
+			"USED_X_POSE_RANGE":[-10, 10],
+			"USED_Y_POSE_RANGE":[-10, 10],
+			"USED_Z_POSE_RANGE":[-0.4, 0.1],
+			"USED_X_ANGLE_RANGE":[[0, 360]],
+			"USED_Y_ANGLE_RANGE":[[0, 360]],
+			"USED_Z_ANGLE_RANGE":[[0, 360]]
+		}
+	]
+}

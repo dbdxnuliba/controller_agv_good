@@ -1,0 +1,111 @@
+{
+    "NAME": "SAMPLE_OPTIMIZER_SMOOTHER",
+    "ENABLE": true,
+    "FLAGS_car_width": 0.8,
+    "FLAGS_car_length": 1.0,
+    "FLAGS_safety_margin": 0.3,
+    "FLAGS_wheel_base": 0.64,
+    
+    "//": "distance from rear axle to vehicle center",
+    "FLAGS_rear_axle_to_center": 0.32,
+    
+    "FLAGS_max_steering_angle":20,
+    
+    "//":"friction param",
+    "FLAGS_mu": 0.4,
+    
+    "//":"max derivative of curvature",
+    "FLAGS_max_curvature_rate": 0.1,
+
+    "//": "Reference smoothing method",
+    "//": "TENSION2 or ANGLE_DIFF or TENSION",
+    "FLAGS_smoothing_method": "TENSION2",
+
+    "//": "IPOPT or OSQP",
+    "FLAGS_tension_solver": "OSQP",
+
+    "//": "search before optimization",
+    "FLAGS_enable_searching": true,
+
+    "//": "max offset when searching",
+    "FLAGS_search_lateral_range": 20,
+
+    "//": "longitudinal spacing when searching",
+    "FLAGS_search_longitudial_spacing": 0.5,
+
+    "//": "lateral spacing when searching",
+    "FLAGS_search_lateral_spacing": 1.6,
+
+    "//": "frenet smoothing angle difference weight",
+    "FLAGS_frenet_angle_diff_weight": 1500.0,
+
+    "//": "frenet smoothing angle diff diff weight",
+    "FLAGS_frenet_angle_diff_diff_weight": 200,
+
+    "//": "frenet smoothing deviation from the orignal path",
+    "FLAGS_frenet_deviation_weight": 15,
+
+    "FLAGS_cartesian_curvature_weight": 1,
+    "FLAGS_cartesian_curvature_rate_weight": 50, 
+    "FLAGS_cartesian_deviation_weight": 0,
+    "FLAGS_tension_2_deviation_weight": 0.005,
+    "FLAGS_tension_2_curvature_weight": 1,
+    "FLAGS_tension_2_curvature_rate_weight": 10,
+
+    "//": "faster, but may go wrong sometimes",
+    "FLAGS_enable_simple_boundary_decision": true,
+
+    "//": "searching cost",
+    "FLAGS_search_obstacle_cost": 0.4,
+
+    "//": "offset from the original ref cost",
+    "FLAGS_search_deviation_cost": 0.4,
+
+    "//": "K or KP or KCP",
+    "//": "K uses curvature as input",
+    "//": "KP uses curvature' as input",
+    "//": "KPC uses curvarure' and apply some constraints on it",
+    "FLAGS_optimization_method": "KP",
+
+    "//": "curvature weight of solver K",
+    "FLAGS_K_curvature_weight": 50,
+
+    "//": "curvature rate weight of solver K",
+    "FLAGS_K_curvature_rate_weight": 200,
+
+    "//": "deviation weight of solver K",
+    "FLAGS_K_deviation_weight": 0,
+
+    "//": "curvature weight of solver KP and KPC",
+    "FLAGS_KP_curvature_weight": 10,
+
+    "//": "curvature rate weight of solver KP and KPC",
+    "FLAGS_KP_curvature_rate_weight": 200,
+
+    "//": "deviation weight of solver KP and KPC",
+    "FLAGS_KP_deviation_weight": 0,
+
+    "//": "punish distance to obstacles",
+    "FLAGS_KP_slack_weight": 3,
+
+    "//": "soft constraint on the distance to obstacles",
+    "FLAGS_expected_safety_margin": 1.3,
+
+    "//": "add constraints on end heading",
+    "FLAGS_constraint_end_heading": true,
+
+    "//": "force the path to reach the exact goal state",
+    "FLAGS_enable_exact_position": false,
+
+    "//": "slower, better",
+    "FLAGS_enable_raw_output": true,
+
+    "//": "output interval",
+    "FLAGS_output_spacing": 0.3,
+
+    "//": "perform collision check before output",
+    "FLAGS_enable_collision_check": true,
+
+    "//": "dense segmentation when the curvature is large.",
+    "FLAGS_enable_dynamic_segmentation": true
+}

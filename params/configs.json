@@ -1,0 +1,13 @@
+{
+	"ROBOT_CONFIG": "./params/robot_config.json",
+    "MAP_CONFIG":  "./params/maps/dongchuang_map.json",
+    "GLOBAL_PLANNER_CONFIG": "./params/global_akermann_wave_front_planner.json",
+    "LOCAL_PLANNER_CONFIG_bk": "./params/local_r_star_planner.json",
+    "LOCAL_PLANNER_CONFIG": "./params/local_frenet_polynomial_planner.json",
+    "TRACKER_CONFIG":"./params/tracker_config.json",
+    "LOCALIZATION_CONFIG": "",
+    "GLOBAL_PATH_SMOOTHER_CONFIG": "./params/global_gd_smoother.json",
+    "LOCAL_PATH_SMOOTHER_CONFIG": "./params/local_gd_smoother.json",
+    "ACKERMANN_MODEL_CONFIG": "./params/ackermann_params.json",
+    "NAVIGATION_CONFIG": "./params/navigator.json"
+}

@@ -1,0 +1,12 @@
+{
+    "NAME": "GRADIENT_DESCENT_SMOOTHER",
+    "ENABLE": true,
+    "max_iterations": 500,
+    "w_alpha": 0.1,
+    "w_obstacle": 0.1,
+    "w_voronoi": 0.3,
+    "w_curvature": 0.5,
+    "w_smoothness": 0.5,
+    "min_turn_radius": 2,
+    "min_road_width": 2
+}

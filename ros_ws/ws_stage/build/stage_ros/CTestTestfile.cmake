@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/caopan/bz_robot/ros_ws/ws_stage/src/stage_ros
+# Build directory: /home/caopan/bz_robot/ros_ws/ws_stage/build/stage_ros
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_stage_ros_rostest_test_hztest.xml "/home/caopan/bz_robot/ros_ws/ws_stage/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/caopan/bz_robot/ros_ws/ws_stage/build/test_results/stage_ros/rostest-test_hztest.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/caopan/bz_robot/ros_ws/ws_stage/src/stage_ros --package=stage_ros --results-filename test_hztest.xml --results-base-dir \"/home/caopan/bz_robot/ros_ws/ws_stage/build/test_results\" /home/caopan/bz_robot/ros_ws/ws_stage/src/stage_ros/test/hztest.xml ")
+add_test(_ctest_stage_ros_rostest_test_intensity_test.xml "/home/caopan/bz_robot/ros_ws/ws_stage/build/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/caopan/bz_robot/ros_ws/ws_stage/build/test_results/stage_ros/rostest-test_intensity_test.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/caopan/bz_robot/ros_ws/ws_stage/src/stage_ros --package=stage_ros --results-filename test_intensity_test.xml --results-base-dir \"/home/caopan/bz_robot/ros_ws/ws_stage/build/test_results\" /home/caopan/bz_robot/ros_ws/ws_stage/src/stage_ros/test/intensity_test.xml ")

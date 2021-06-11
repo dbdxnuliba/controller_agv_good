@@ -1,0 +1,8 @@
+{
+	"TRACKER_NAME": "FUZZY",
+	"AKERMANN_CONFIG_FILE_PATH": "./params/akermann_params.json",
+	"comment no use: pid":"0.75, 0.3, 0.07",
+	"P":0.720,
+	"I":0.03,
+	"D":0.07
+}

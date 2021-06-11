@@ -1,0 +1,16 @@
+{
+    "angular_velocity": 0.0,
+    "linear_velocity": 0.0,
+    "max_angular_acc": 0.3,
+    "max_angular_velocity": 0.3,
+    "max_linear_acc": 0.4,
+    "max_linear_velocity":1.0,
+    "max_steering_angle": 0.3490658503988659,
+    "pose_x": 0.0,
+    "pose_y": 0.0,
+    "steering_angle": 0.0,
+    "vehicle_angle_yaw": 0.0,
+    "wheel_base": 0.64,
+    "wheel_circumference": 1.0,
+	"front_axel_to_center": 0.3
+}

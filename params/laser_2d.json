@@ -1,0 +1,85 @@
+{
+	"LASER_2D": 
+	[
+		{
+			"DRIVER_INFO":{"PORT_NAME": "/dev/ttyUSB0"},
+			"NAME": "A1",
+			"TYPE": "TIM51X",
+			"UPDATE_CYCLE_TIME_MS": 50,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0.59,
+			"POSE_OFFSET_Y":0,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 180,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": 90,
+			"USED_ANGLE_RANGE":[[30, 150]]
+		},
+
+		{
+			"DRIVER_INFO":{},
+			"NAME": "ROS_STAGE_SIM",
+			"TYPE": "ROS",
+			"UPDATE_CYCLE_TIME_MS": 100,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0.0,
+			"POSE_OFFSET_Y":0,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 0,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": 0,
+			"USED_ANGLE_RANGE":[[-180, 180]]
+		},
+
+		{
+			"DRIVER_INFO":{},
+			"NAME": "ROS_REALSENSE_LEFT",
+			"TYPE": "ROS",
+			"UPDATE_CYCLE_TIME_MS": 100,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0.59,
+			"POSE_OFFSET_Y":0.16,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 0,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": 5,
+			"USED_ANGLE_RANGE":[[-180, 180]]
+		},
+
+		{
+			"DRIVER_INFO":{},
+			"NAME": "ROS_REALSENSE_RIGHT",
+			"TYPE": "ROS",
+			"UPDATE_CYCLE_TIME_MS": 100,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0.59,
+			"POSE_OFFSET_Y":-0.16,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 0,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": -5,
+			"USED_ANGLE_RANGE":[[-180, 180]]
+		},
+
+		{
+			"DRIVER_INFO":{},
+			"NAME": "ROS_TIM_5XX",
+			"TYPE": "ROS",
+			"UPDATE_CYCLE_TIME_MS": 100,
+		    "//":"离中心点偏移 单位 m",
+			"POSE_OFFSET_X":0.59,
+			"POSE_OFFSET_Y":0.0,
+			"POSE_OFFSET_Z":0,
+			"//":"绕各轴旋转角度 单位 角度",
+			"ANGLE_OFFSET_X": 0,
+			"ANGLE_OFFSET_Y": 0,
+			"ANGLE_OFFSET_Z": 0,
+			"//":"激光角度范围 -45 ~ 225，从最小到最大递增",
+			"USED_ANGLE_RANGE":[[-60, 60]]
+		}
+	]
+}

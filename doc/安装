@@ -1,0 +1,71 @@
+1.更新源
+
+2.安装输入法
+首先安装fcitx
+sudo apt-get install fcitx
+如果缺少依赖
+sudo apt --fix-broken install
+继续安装搜狗
+sudo dpkg -i sougou....
+在语言支持中切换ibus->fcitx
+添加输入法
+
+3.安装ros
+
+设置软件源：最好选择国内的
+sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+更新秘钥
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F42ED6FBAB17C654
+更新
+sudo apt-get update
+安装，安装失败可以加上--fix-missing
+sudo apt-get install ros-melodic-desktop-full -y
+还需要一些收尾工作
+sudo rosdep init
+rosdep update
+
+提示: sudo: rosdep:command not found
+sudo apt install rospack-tools
+
+如果出现ERROR: cannot download default sources list from:
+https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list
+Website may be down.
+执行如下命令
+cd /etc
+sudo chmod a+rw hosts
+接着打开hosts文件，在文件末尾添加以下内容，并保存后退出
+151.101.84.133  raw.githubusercontent.com
+继续执行
+sudo rosdep init
+rosdep update
+设置环境变量
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+4.安装qtcreator
+sudo apt-get install qtcreator -y
+安装一些基础的库
+sudo apt-get install libboost-all-dev qt5-default libeigen3-dev cmake git libboost-doc qt5-doc qt5-doc-html libeigen3-doc -y
+
+5.配置导航代码相关依赖
+
+sudo apt-get install ros-melodic-costmap-2d
+sudo apt-get install ros-melodic-base-local-planner
+安装osqp以及osqpeigen
+安装sdl1.2和sdl-imagine
+安装xmlrpc-c++8-dev 
+安装cppad
+安装libevent
+安装IPopt
+  首先安装sudo apt-get install gcc g++ gfortran subversion patch wget
+  然后执行安装脚本./install_ipopt.sh .
+安装激光驱动
+  sudo apt-get install libpcap-dev 
+  catkin_make
+安装定位程序
+   首先编译ndt_omp
+   然后编译hdl
+安装stage
+   先编译stage
+   然后在根目录执行catkin_make
+

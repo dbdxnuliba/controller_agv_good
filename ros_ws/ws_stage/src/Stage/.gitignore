@@ -1,0 +1,8 @@
+build
+config.h
+*.swp
+*~
+*#
+.DS_Store
+docsrc/stage
+*.txt.user

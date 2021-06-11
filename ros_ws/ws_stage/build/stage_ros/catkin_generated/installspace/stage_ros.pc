@@ -1,0 +1,8 @@
+prefix=/home/caopan/bz_robot/ros_ws/ws_stage/install
+
+Name: stage_ros
+Description: Description of stage_ros
+Version: 1.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+stage_ros
+-DCATKIN_DEVEL_PREFIX=/home/caopan/bz_robot/ros_ws/ws_stage/devel -DCMAKE_INSTALL_PREFIX=/home/caopan/bz_robot/ros_ws/ws_stage/install -G Unix Makefiles

@@ -1,0 +1,14 @@
+<launch>
+  
+	<!-- Convert depth image to laser scan -->
+	<node name	= "laserscan_kinect"
+				pkg		= "laserscan_kinect"
+				type	= "laserscan_kinect"
+				output="screen">
+	  	<remap from="image_left" to="/camera_left/depth/image_rect_raw"/>
+	  	<remap from="camera_info_left" to="/camera_right/depth/camera_info"/>
+		<remap from="image_right" to="/camera_right/depth/image_rect_raw"/>
+	  	<remap from="camera_info_right" to="/camera_right/depth/camera_info"/>
+      <rosparam command="load" file="$(find laserscan_kinect)/config/params.yaml"/>
+	</node>
+</launch>

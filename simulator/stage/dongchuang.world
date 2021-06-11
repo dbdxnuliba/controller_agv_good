@@ -1,0 +1,85 @@
+define block model
+(
+  size [1.0 1.0 1.0]
+  gui_nose 1
+)
+
+define topurg ranger
+(
+  sensor
+  (
+    range [0 30]
+    fov 360
+    samples 181
+    # noise [range_const range_prop angular]
+  )
+  # generic model properties
+  color "black"
+  size [ 0.05 0.05 0.1 ]
+)
+
+define bz_robot position
+(
+  odom_error [0.03 0.03 999999 999999 999999 0.2]
+
+  size [ 1.2 0.8 0.6 ] # this models the footprint (rectangular), but shifted such that the bottom-left corner is in [0,0]. The center of rotation now here at [0.3, 0.125, 0.2]
+  # correct center of rotation:
+  origin [ 0.0 0.0 0.0 0.0]
+  gui_nose 1
+  color "blue"
+
+  # kinematics
+  drive "car"
+  wheelbase 0.68 # distance between both axles
+  topurg(pose [0.0 0.000 0 0.000])
+)
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 0
+  gui_grid 0
+#gui_movemask 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+# set the resolution of the underlying raytrace model in meters
+resolution 0.2
+
+interval_sim 100  # simulation timestep in milliseconds
+#interval_real 100  # real-time interval between simulation updates in milliseconds 
+
+window
+( 
+  size [ 745.000 448.000 ] 
+#center [327.990 371.960] 
+#rotate [ 0.000 -1.560 ]
+  rotate [ 0.000 0.0 ]
+  scale 18.806 
+)
+
+# load an environment bitmap
+floorplan
+( 
+  name "dongchuang"
+  bitmap "dongchuang_map.png"
+  size [271.2 221.2 1.0]
+
+  # map_w / 2 + original_x
+  # map_h / 2 + original_y
+  pose [92.8 77.1 0 0.0. 0.000]
+)
+
+# throw in a robot
+#pr2( pose [-27.950 15.629 0 90.0] name "pr2" color "blue")
+bz_robot( pose [0 0 0 0.0] name "bz_robot" color "blue")
+#block( pose [ -27.924 13.020 0 0.000 ] color "red")
+block( pose [ 11.00 0.224 0 0.000 ] color "red")

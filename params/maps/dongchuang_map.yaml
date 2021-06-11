@@ -1,0 +1,7 @@
+image: dongchuang_map.pgm
+resolution: 0.100000
+origin: [-42.800000, -33.500001, -nan]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

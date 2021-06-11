@@ -1,0 +1,10 @@
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/install/strip.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/install/local.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/install.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/list_install_components.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/rebuild_cache.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/fl-obj.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/fl-static.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/fl-shared.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/fl-bin.dir
+/home/caopan/fuzzylite/fuzzylite/debug/CMakeFiles/edit_cache.dir

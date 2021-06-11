@@ -1,0 +1,15 @@
+{
+    "IS_GLOBAL_PLAN_FORCE_REPLAN": false,
+    "global_path_lateral_error": 0.5,
+    "global_planner_periodic_time_ms": 2000,
+    "IS_LOCAL_PLAN_FORCE_REPLAN": true,
+    "IS_LOCAL_PLANNER_USE_GLOBAL_PATH": true,
+    "LOCAL_PLANNER_REPLAN_DISTANCE": 3.0,
+    "local_path_lateral_error": 0.5,
+    "local_planner_periodic_time_ms":200,
+    "distance_diff_tolerance": 1.0,
+    "angle_diff_tolerance": 30,
+    "ENABLE_GLOBAL_SMOOTHER": true,
+    "ENABLE_LOCAL_SMOOTHER": false,
+    "tracker_periodic_time_ms": 40
+}

@@ -1,0 +1,6 @@
+{
+    "SIMULATE_FLAG": true,
+    "BODY_CONTROL_SERVER_URL": "http://192.168.1.110:20000/RPC2",
+	"AKERMANN_CONFIG_FILE_PATH": "./params/akermann_params.json",
+	"SENSOR_LIST":"./params/sensor.json"
+}

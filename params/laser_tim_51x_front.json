@@ -1,0 +1,14 @@
+{
+	"PORT_NAME": "/dev/ttyUSB0",
+	"NAME": "A1",
+	"TYPE": "TIM51X",
+    "//":"离中心点偏移 单位 m",
+	"POSE_OFFSET_X":0.59,
+	"POSE_OFFSET_Y":0,
+	"POSE_OFFSET_Z":0,
+	"//":"绕各轴旋转角度 单位 角度",
+	"ANGLE_OFFSET_X": 180,
+	"ANGLE_OFFSET_Y": 0,
+	"ANGLE_OFFSET_Z": 90,
+	"USED_ANGLE_RANGE":[[30, 150]]
+}

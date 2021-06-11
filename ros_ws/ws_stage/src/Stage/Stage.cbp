@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Stage" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\internal\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\fltk\;CMake Files\libstage\;CMake Files\examples\;CMake Files\examples\ctrl\;CMake Files\assets\;CMake Files\worlds\;CMake Files\worlds\benchmark\;CMake Files\worlds\bitmaps\;CMake Files\worlds\wifi\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 package" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package_source">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 package_source" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/zhou/work/codes/Stage" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stagebinary">
+         <Option output="/home/zhou/work/codes/Stage/libstage/stage" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/libstage" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage" />
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 stagebinary" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stagebinary/fast">
+         <Option output="/home/zhou/work/codes/Stage/libstage/stage" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/libstage" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage" />
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 stagebinary/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stage">
+         <Option output="/home/zhou/work/codes/Stage/libstage/libstage.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/libstage" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage" />
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 stage" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stage/fast">
+         <Option output="/home/zhou/work/codes/Stage/libstage/libstage.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/libstage" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage" />
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 stage/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/libstage/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wander">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/wander.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 wander" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wander/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/wander.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 wander/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sink">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/sink.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 sink" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sink/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/sink.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 sink/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="source">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/source.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 source" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="source/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/source.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 source/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasr">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/fasr.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 fasr" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasr/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/fasr.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 fasr/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pioneer_flocking">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/pioneer_flocking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 pioneer_flocking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pioneer_flocking/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/pioneer_flocking.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 pioneer_flocking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rasterize">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/rasterize.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 rasterize" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rasterize/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/rasterize.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 rasterize/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lasernoise">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/lasernoise.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 lasernoise" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lasernoise/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/lasernoise.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 lasernoise/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dynamic">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/dynamic.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 dynamic" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dynamic/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/dynamic.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 dynamic/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasr2">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/fasr2.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 fasr2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasr2/fast">
+         <Option output="/home/zhou/work/codes/Stage/examples/ctrl/fasr2.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/examples/ctrl" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 fasr2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/examples/ctrl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="expand_swarm">
+         <Option output="/home/zhou/work/codes/Stage/worlds/benchmark/expand_swarm.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/worlds/benchmark" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 expand_swarm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="expand_swarm/fast">
+         <Option output="/home/zhou/work/codes/Stage/worlds/benchmark/expand_swarm.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/worlds/benchmark" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 expand_swarm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="expand_pioneer">
+         <Option output="/home/zhou/work/codes/Stage/worlds/benchmark/expand_pioneer.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/worlds/benchmark" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 expand_pioneer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="expand_pioneer/fast">
+         <Option output="/home/zhou/work/codes/Stage/worlds/benchmark/expand_pioneer.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhou/work/codes/Stage/worlds/benchmark" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhou/work/codes/Stage/." />
+            <Add directory="/home/zhou/work/codes/Stage/libstage" />
+            <Add directory="/home/zhou/work/codes/Stage/replace" />
+            <Add directory="/usr/lib/fltk" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 expand_pioneer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhou/work/codes/Stage/worlds/benchmark/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/astar/findpath.cpp">
+         <Option target="fasr2"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/dynamic.cc">
+         <Option target="dynamic"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/fasr.cc">
+         <Option target="fasr"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/fasr2.cc">
+         <Option target="fasr2"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/lasernoise.cc">
+         <Option target="lasernoise"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/pioneer_flocking.cc">
+         <Option target="pioneer_flocking"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/rasterize.cc">
+         <Option target="rasterize"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/sink.cc">
+         <Option target="sink"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/source.cc">
+         <Option target="source"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/wander.cc">
+         <Option target="wander"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/ancestor.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/block.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/blockgroup.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/camera.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/canvas.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/canvas.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/color.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/file_manager.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/file_manager.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/gl.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/logentry.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/main.cc">
+         <Option target="stagebinary"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_actuator.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_blinkenlight.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_blobfinder.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_bumper.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_callbacks.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_camera.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_draw.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_fiducial.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_gripper.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_lightindicator.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_position.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/model_ranger.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/option.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/option.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/options_dlg.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/options_dlg.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/powerpack.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/region.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/region.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/stage.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/stage.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/texture_manager.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/texture_manager.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/typetable.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/vis_strip.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/world.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/worldfile.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/worldfile.hh">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/worldgui.cc">
+         <Option target="stage"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/benchmark/expand_pioneer.cc">
+         <Option target="expand_pioneer"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/benchmark/expand_swarm.cc">
+         <Option target="expand_swarm"/>
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/stage.pc.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/stage-config.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/stage-config-version.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/stage-config.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/cmake/internal/FindOS.cmake">
+          <Option virtualFolder="CMake Files\cmake\internal\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/cmake/internal/UninstallTarget.cmake">
+          <Option virtualFolder="CMake Files\cmake\internal\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/cmake/internal/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\internal\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/../../../../../usr/lib/fltk/FLTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/../../../../../usr/lib/fltk/FLTK-Targets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/../../../../../usr/lib/fltk/FLTK-Targets-noconfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/../../../../../usr/lib/fltk/UseFLTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\fltk\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/libstage/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\libstage\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/examples/ctrl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\ctrl\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/assets/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\assets\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\worlds\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/benchmark/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\worlds\benchmark\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/bitmaps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\worlds\bitmaps\" />
+      </Unit>
+      <Unit filename="/home/zhou/work/codes/Stage/worlds/wifi/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\worlds\wifi\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
